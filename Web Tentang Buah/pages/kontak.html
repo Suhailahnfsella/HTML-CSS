@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tentangbuah.com - website tentang buah!</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <header>
+          <img src="../images/logobuah.png" alt="logo" />
+          <h1>Tentangbuah.com</h1>
+        </header>
+        <nav>
+          <ul>
+            <li><a href="../tentangbuah.html">Home</a></li>
+            <li>
+              <a href="buah.html">Buah</a>
+              <ul>
+                <li><a href="apel.html">Apel</a></li>
+                <li><a href="jeruk.html">Jeruk</a></li>
+                <li><a href="mangga.html">Mangga</a></li>
+                <li><a href="pisang.html">Pisang</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="kontak.html">Kontak</a>
+            </li>
+          </ul>
+        </nav>
+        <section>
+          <h2>Kontak Kami</h2>
+          <form action="../tentangbuah.html" method="get">
+            <fieldset>
+              <legend>Informasi Pemesanan</legend>
+              <select name="buah" id="">
+                <option value="Apel" selected>Apel</option>
+                <option value="Jeruk">Jeruk</option>
+                <option value="Mangga">Mangga</option>
+                <option value="Pisang">Pisang</option>
+              </select>
+              <br /><br />
+              <label for="nama">Nama : </label>
+              <input
+                type="text"
+                name="nama"
+                id=""
+                placeholder="Nama Anda"
+                required
+              />
+              <br /><br />
+              <label for="email">Email : </label>
+              <input
+                type="text"
+                name="email"
+                id=""
+                placeholder="Email Anda"
+                required
+              />
+              <br /><br />
+              <label for="alamat">Alamat</label>
+              <textarea name="alamat" id="" cols="30" rows="10"> </textarea>
+              <br /><br />
+              <input type="submit" name="kirim" value="kirim" id="" />
+            </fieldset>
+          </form>
+        </section>
+        <br /><br />
+        <footer>
+          <i class="fa fa-copyright" aria-hidden="true">
+            Created by: Suhailahnfsella_
+          </i>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
